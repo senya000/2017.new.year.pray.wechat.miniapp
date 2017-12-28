@@ -1,0 +1,42 @@
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #06050a;
+}
+.prayTop>image{
+  width: 100%;
+  height: 380rpx;
+}
+.prayBox{
+  margin: 0 24rpx;  
+  display: flex;
+  border-bottom: 1px solid #221b1c;
+}
+.prayBox:last-child{
+  border-bottom: none;
+}
+.prayRow{
+  flex: 1;
+  background-color: #06050a;
+  text-align: center;
+  padding: 38rpx 42rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.prayRow text{
+  font-size: 30rpx;
+  margin-top: 34rpx;
+  color: #fdd000;
+}
+.prayRow icon{
+  display: inline-block;
+  width: 76rpx;
+  height: 76rpx;
+}
+.prayBox>.prayRow:nth-child(2){
+  border-left: 2px solid #221b1c;
+  border-right: 2px solid #221b1c;
+}

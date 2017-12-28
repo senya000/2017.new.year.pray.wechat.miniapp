@@ -1,0 +1,20 @@
+<!--pages/paying/paying.wxml-->
+<view class='payBox wishBox'>
+  <view class='payTitle'>【姻缘灯】月老牵线 * 姻缘降临</view>
+  <view class='payMsg'>
+    <image src="/images/light1.png"></image>
+    <view class='payer'>
+      <text>姻缘灯</text>
+      <text class='payerSex'>男</text>
+    </view>
+    <view>2001-02-10</view>
+  </view>
+  <view class='payerNum'>已有 854,545 人许愿</view>
+  <navigator url='../myWishDetail/myWishDetail'>
+    <button type="primary"> <icon class='iconfont icon-weixinzhifu'></icon> 微信支付</button>
+  </navigator>
+  <view class='payMoney'>
+    <text>许愿供灯费</text>
+    <text>¥0.01</text>
+  </view>
+</view>

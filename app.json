@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myWishDetail/myWishDetail",
+    "pages/lighting/lighting",
+    "pages/paying/paying",
+    "pages/new/new",
+    "pages/bright/bright",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "点灯祈福",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#C0C0C0",
+    "selectedColor": "#e72021",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "我要许愿",
+        "iconPath": "images/indexIcon001.png",
+        "selectedIconPath": "images/indexIconSelect001.png"
+      },
+      {
+        "pagePath": "pages/new/new",
+        "text": "最新许愿灯",
+        "iconPath": "images/indexIcon002.png",
+        "selectedIconPath": "images/indexIconSelect002.png"
+      },
+      {
+        "pagePath": "pages/bright/bright",
+        "text": "最亮许愿灯",
+        "iconPath": "images/indexIcon003.png",
+        "selectedIconPath": "images/indexIconSelect003.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的许愿",
+        "iconPath": "images/indexIcon004.png",
+        "selectedIconPath": "images/indexIconSelect004.png"
+      }
+    ]
+  }
+  
+} 

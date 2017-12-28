@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="prayTop">
+  <image src='/images/banner.jpg'></image> 
+  </view> 
+  <view class="prayBox">
+    <navigator url='../lighting/lighting' class="prayRow">
+        <icon class='iconfont icon-yinyuan'></icon>
+        <text>爱情缘分</text>
+    </navigator>     
+    <navigator url='../lighting/lighting' class="prayRow">
+      <icon class='iconfont icon-caiyuanguangjin'></icon>
+      <text>财源广进</text>
+    </navigator>  
+    <navigator url='../lighting/lighting' class="prayRow">
+      <icon class='iconfont icon-shishishunxin'></icon>
+      <text>事事顺心</text>
+    </navigator>  
+  </view>
+  <view class="prayBox">
+    <navigator url='../lighting/lighting' class="prayRow">
+      <icon class='iconfont icon-shengzhijiaxin'></icon>
+      <text>升职加薪</text>
+    </navigator>  
+    <navigator url='../lighting/lighting' class="prayRow">
+      <icon class='iconfont icon-shentijiankang'></icon>
+      <text>身体健康</text>
+    </navigator> 
+    <navigator url='../lighting/lighting' class="prayRow">
+      <icon class='iconfont icon-shengrikuaile'></icon>
+      <text>生日快乐</text>
+    </navigator> 
+  </view>
+  <view class="prayBox">
+    <navigator url='../lighting/lighting' class="prayRow">
+      <icon class='iconfont icon-xueyejinbu'></icon>
+      <text>学业进步</text>
+    </navigator> 
+    <navigator url='../lighting/lighting' class="prayRow">
+      <icon class='iconfont icon-fushouyannian'></icon>
+      <text>福寿延年</text>
+    </navigator> 
+    <navigator url='../lighting/lighting' class="prayRow">
+      <icon class='iconfont icon-quxiebihuo'></icon>
+      <text>驱邪避祸</text>
+    </navigator>  
+  </view>
+</view>

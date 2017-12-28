@@ -1,0 +1,62 @@
+/* pages/paying/paying.wxss */
+.payBox{
+  width: 100%;
+  height: 100%;
+  padding: 0 24rpx;
+  box-sizing: border-box;
+}
+.payTitle{
+  font-size: 42rpx;
+  text-align: center;
+  padding: 60rpx 0 50rpx 0;
+}
+.payMsg{
+  border: 2px solid #f1f1f1;
+  border-radius: 12rpx;
+  width: 68%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50rpx;
+  font-size: 32rpx;
+}
+.payMsg>image{
+  width: 210rpx;
+  height: 290rpx;
+}
+.payer{
+  padding: 32rpx 0;
+}
+.payerSex{
+  color: #ff0000;
+  margin-left: 16rpx;
+}
+.payerNum{
+  padding: 46rpx 0;
+  text-align: center;
+  color: #888;
+  font-size: 34rpx;
+}
+.payMoney{
+  font-size: 30rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: space-between; 
+  margin-top: 30rpx;
+}
+.payMoney>text:last-child{
+  color: #ed6822;
+}
+button[type="primary"] {
+  color:#FFFFFF;
+  background-color:#1AAD19;
+  line-height: 2;
+}
+.icon-weixinzhifu{
+  color: #fff;
+  font-size: 30rpx;
+  margin-right: 14rpx;
+}

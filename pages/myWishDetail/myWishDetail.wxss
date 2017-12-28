@@ -1,0 +1,54 @@
+/* pages/myWishDetail/myWishDetail.wxss */
+.myDetailBox{
+  width: 100%;
+  height: 100%;
+  padding: 0 24rpx 40rpx 24rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+.detailTitle{
+  font-weight: bold;
+  font-size: 40rpx;
+  color: #7c6b70;
+  padding: 10rpx 0 40rpx 0;
+}
+.myLightImg>image{
+  width: 210rpx;
+  height: 290rpx;
+  font-size: 40rpx;
+  color: #7c6b70;
+}
+.detailMsg{
+  text-align: left;
+  padding: 50rpx 80rpx 40rpx 80rpx;
+  font-size: 34rpx;
+  color: #7c6a6f;  
+}
+.prayNum{
+  font-size: 32rpx;
+  margin: 30rpx 0;
+}
+.prayNum>text{
+  color: #ff0000;
+  font-weight:bold;
+  font-size: 34rpx;
+}
+.prayBtn{
+  width: 70%;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 34rpx;
+  color: #fff;
+  background-color: #ed7333;
+  margin: 0 auto;
+  border-radius: 12rpx;
+}
+.lightOn{
+  margin-top: 24rpx;
+  font-size: 32rpx;
+}
+.icon-aixin{
+  font-size: 42rpx;
+  color: #aab8c2;
+}

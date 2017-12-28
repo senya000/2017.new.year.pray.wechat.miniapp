@@ -1,0 +1,67 @@
+<!--pages/lighting/lighting.wxml-->
+<view class='lightingBody'>
+  <view class='lightingBodyBg'>
+    <image src='/images/backgroundimage2.png'></image>
+  </view>
+  <view class='lightingType'>【姻缘灯】月老牵线 * 姻缘降临</view>
+  <view class='lightingBigBox'>
+      <view class='lightingLeft'>
+          <view class='lightingBox'>
+              <view class='lightingTitle'>  
+                  <view><icon class='iconfont icon-logo'></icon>适用对象：</view>
+              </view>
+              <view class='lightingText'>单身者、有伴侣者均适用。</view>
+          </view>
+          <view class='lightingBox'>
+            <view class='lightingTitle'>  
+                <view><icon class='iconfont icon-logo'></icon>开运功效：</view>
+            </view>
+            <view class='lightingText'>有平和心境、增进情感功效。可实现对爱情的追求，招来幸福美满的感情生活。</view>
+          </view>
+          <view class='lightingBox'>
+              <view class='lightingTitle'>  
+                  <view><icon class='iconfont icon-logo'></icon>解曰：</view>
+              </view>
+              <view class='lightingText'>若问功名 前有贵人 更添喜气 财禄丰裕</view>
+          </view>
+      </view>
+      <view class='lightingRight'>
+        <image src="/images/light1.png"></image>
+        <view>姻缘灯</view>
+      </view>
+  </view>
+  <view class='lightingTitle'>  
+      <view><icon class='iconfont icon-logo'></icon>点姻缘灯，求爱情缘分</view>
+  </view>
+  <view class='lightingTip'>贴心提示：除了帮自己点灯，也别忘了帮亲朋好友一起点灯祈福哦！</view>
+  <view class='lightingFrom'>
+    <view class="fromTitle">灯型：【姻缘灯】月老牵线 </view>
+    <view class="fromControl">
+      <text>姓名：</text>
+      <input placeholder='请输入姓名'></input>
+    </view>
+    <view class="fromControl">
+      <text>性别：</text>
+      <label class="radio" wx:for-items="{{items}}">
+        <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+      </label>
+    </view>
+    <view class="fromControl">
+      <text>生日：</text>
+      <picker mode="date" value="{{date}}" start="1940-09-01" end="2018-12-30" bindchange="bindDateChange">
+        <view class="picker">
+           {{date}}
+        </view>
+      </picker>
+    </view>
+    <view class="fromControl">
+      <text class='wishText'>愿望：</text>
+      <textarea placeholder='请输入心中的愿望（140字内）'></textarea>
+    </view>
+    <view class="fromControl">
+      <text>手机：</text>
+      <input type="number" placeholder='非必填，仅用于发送许愿查看链接'></input>
+    </view>
+  </view>
+  <navigator class='fromBtn' url='../paying/paying'>马上点灯</navigator>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/myWishDetail/myWishDetail.wxml-->
+<view class='myDetailBox wishBox'>
+   <view class='lightingBodyBg'>
+    <image src='/images/backgroundimage2.png'></image>
+  </view> 
+  <view class='detailTitle'>许愿灯</view>
+  <view class='myLightImg'>
+    <image src='/images/light1.png'></image>
+  </view>
+  <view class='detailMsg'>许愿灯</view>
+  <view> <icon class='iconfont icon-aixin'></icon></view>
+  <view class='prayNum'> <text>99</text> 人为他祈福</view>
+  <view class='prayBtn'>发给朋友 共同祈福</view>
+  <view class='lightOn'>我也要点灯 >></view> 
+</view>
